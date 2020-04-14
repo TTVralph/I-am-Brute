@@ -25,7 +25,7 @@ def login(url, username, passwords, errorstr, payload):
 def main():
     url = input('Enter url : ')  # 'https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2F'
     username = input('Enter username : ')  # 'admin'
-    filename = input('Enter file path : ')  # '/home/cyberhunter/passlist.txt'
+    filename = input('Enter file path : ')  # 'Downloads\I-am-Brute-master\I-am-Brute-master\passlist.txt'
     payload = {'Login': 'Login'}
     errorstr = input('Enter error string : ')  # 'Login failed'
     thread_lmt = int(input('Enter total no. of threads : '))  # 10
